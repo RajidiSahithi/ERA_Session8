@@ -187,7 +187,7 @@ Adaptive Moment Estimation is an algorithm for optimization techniques for gradi
 #### ReduceLROnPlateau
 Instead of using a fixed learning rate, we will use a learning rate scheduler, which will change the learning rate after every batch of training. There are many strategies for varying the learning rate during training. In this model 
 * I used "ReduceOnPlateue" and "One Cycle Learning Rate Policy", which involves starting with a low learning rate, gradually increasing it batch-by-batch to a high learning rate for about 30% of epochs, then gradually decreasing it to a very low value for the remaining epochs.
-* Weight decay: regularization technique (L2) which prevents the weights from becoming too large by adding an additional term to the loss function.
+* Weight decay: here I selected weight decay=0
 
 ###### OBSERVATIONS
 * keep on running the model accuracy of the model is being increased
