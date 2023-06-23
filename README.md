@@ -4,7 +4,7 @@
 - [DATASET](#dataset)
 - [IMPORTING_LIBRARIES](#importing_libraries)
 - [SET_THE_TRANSFORMS](#set_the_transforms)
-- [SET_DATA_LOADER](#Set_Data_Loader)
+- [SET_DATA_LOADER](#set_data_loader)
 - [CNN_MODEL](#cnn_model)
 - [TRAINING_THE_MODEL](training_the_model)
 
