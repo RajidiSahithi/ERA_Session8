@@ -176,12 +176,12 @@ optimizer = torch.optim.Adam(net.parameters(), lr=0.01, betas=(0.9, 0.999), eps=
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=10, verbose=True, min_lr=0)
 </pre>
 
-Above Optimizers and Scheduler is used for traing the model and back propgation is done for improving the accuracy.
+Above Optimizers and Scheduler are used for training the model and back propagation is done for improving the accuracy.
 * Learrning Rate = 0.01
 
 #### Adam Optimizer 
 
-Adaptive Moment Estimation is an algorithm for optimization technique for gradient descent. The method is really efficient when working with large problem involving a lot of data or parameters. It requires less memory and is efficient. Intuitively, it is a combination of the ‘gradient descent with momentum’ algorithm and the ‘RMSP’ algorithm. I observed that it worked better than SGD
+Adaptive Moment Estimation is an algorithm for optimization techniques for gradient descent. The method is really efficient when working with significant problem involving a lot of data or parameters. It requires less memory and is efficient. Intuitively, it is a combination of the ‘gradient descent with momentum algorithm and the ‘RMSP’ algorithm. I observed that it worked better than SGD
 
 #### ReduceLROnPlateau
 Instead of using a fixed learning rate, we will use a learning rate scheduler, which will change the learning rate after every batch of training. There are many strategies for varying the learning rate during training. In this model 
@@ -192,6 +192,7 @@ Instead of using a fixed learning rate, we will use a learning rate scheduler, w
 * keep on running the model accuracy of the model is being increased
 <pre>
 Number of epochs=20
+</pre>
 
 #### Plot of Accuracy and Loss
 
