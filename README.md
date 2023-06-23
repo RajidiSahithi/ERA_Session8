@@ -81,7 +81,7 @@ Input >                      3X32X32
             
 </pre>
 #### Receptive Field Calculation Sheet and Skeleton of CNN Model.
-![alt text](RF Calculation)
+![alt text](https://github.com/RajidiSahithi/ERA_Session8/blob/main/ImagesS8/RF%20Calculation.png)
 #### Parameter Count of the CNN model
 
 <pre>
