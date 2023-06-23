@@ -42,7 +42,7 @@ Applying chosen transformations while loading images from the training dataset. 
 * Training dataset is completely diffrent from testing dataset
 
 #### SAMPLE DATASET
-![alt text](Sample Dataset)
+![alt text](https://github.com/RajidiSahithi/ERA_Session8/blob/main/ImagesS8/Sample%20dataset.png)
 
 ## CNN_MODEL
 #### RESNET CNN MODEL IS USED
@@ -195,12 +195,12 @@ Number of epochs=20
 
 #### Plot of Accuracy and Loss
 
-![alt text](Accuracy & Loss)
+![alt text](https://github.com/RajidiSahithi/ERA_Session8/blob/main/ImagesS8/acc_loss.png)https://github.com/RajidiSahithi/ERA_Session8/blob/main/ImagesS8/acc_loss.png
 
 
 #### Misclassified Images
 
-  ![alt text](misclassified Images)
+  ![alt text](https://github.com/RajidiSahithi/ERA_Session8/blob/main/ImagesS8/misclassified%20images.png)https://github.com/RajidiSahithi/ERA_Session8/blob/main/ImagesS8/misclassified%20images.png)
 
 
 
